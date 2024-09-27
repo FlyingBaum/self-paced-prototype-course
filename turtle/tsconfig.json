@@ -1,0 +1,9 @@
+{
+	"extends": "@codary/tsconfig/react-library.json",
+	"include": ["**/*.ts", "**/*.tsx", "vite.config.ts"],
+	"exclude": ["node_modules"],
+	"compilerOptions": {
+		"lib": ["dom", "es2021"],
+		"isolatedModules": false
+	}
+}
